@@ -24,14 +24,6 @@ function Header({ toggleSidebar }: HeaderProps): JSX.Element {
 				/>
 				<h1>{t("calculator")}</h1>
 			</div>
-			<a
-				href="https://github.com/shangzhenyang/calculator"
-				target="_blank"
-				rel="noreferrer"
-				title="GitHub"
-			>
-				<FontAwesomeIcon icon={faGithub} size="xl" fixedWidth />
-			</a>
 		</header>
 	);
 }
